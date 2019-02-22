@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:elements": "ng build --prod --output-hashing none && node elements-build.js",
-    "start-server": "node --experimental-modules index.mjs"
+    "start-server": "yarn build:elements && node --experimental-modules index.mjs"
   },
   "private": true,
   "dependencies": {
