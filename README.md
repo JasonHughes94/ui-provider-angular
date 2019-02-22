@@ -1,10 +1,11 @@
-# WIP
+# ui provider angular
 
-## Testing Out Angular Elements
+# Install
+- `yarn install`
 
-Taking a look into Angular Elements with a xkcd retriever.
+# Build
+- `yarn build:elements`
 
-Inspired by [Lloyd's](https://github.com/lloydjatkinson/xkcd-web-component) implementation using Vue.js.
-
-
+# Run server
+- `yarn start-server`
 
