@@ -10,5 +10,5 @@ const concat = require('concat');
   ];
 
   await fs.ensureDir('elements');
-  await concat(files, './elements/ui-provider-stats.js');
+  await concat(files, './views/stats.ejs');
 })();
